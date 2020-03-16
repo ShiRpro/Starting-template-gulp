@@ -8,10 +8,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Johnny-24/Starting-template-gulp"
+        "url": "https://github.com/ShiRpro/Starting-template-gulp"
     },
-    "author": "Johnny",
-    "homepage": "https://github.com/Johnny-24/Starting-template-gulp",
+    "author": "ShiRpro",
+    "homepage": "https://github.com/ShiRpro/Starting-template-gulp",
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.8.4",
