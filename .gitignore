@@ -1,0 +1,7 @@
+node_modules
+dist
+.idea
+.gulp
+yarn.lock
+.DS_Store
+*.log

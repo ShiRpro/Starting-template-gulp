@@ -1,0 +1,18 @@
+@mixin size($a, $b: false) {
+    width: $a;
+    @if $b {
+        height: $b;
+    } @else {
+        height: $a;
+    }
+}
+
+@mixin font($f-name, $f-style, $f-weight, $f-url) {
+    @font-face {
+        font-family: $f-name;
+        font-style: $f-style;
+        font-weight: $f-weight;
+        src: url($f-url) format("woff2");
+        font-display: swap;
+    }
+}

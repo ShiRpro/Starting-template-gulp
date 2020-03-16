@@ -1,0 +1,15 @@
+block variables
+include ../mixins/mixins
+
+doctype html
+html(lang="ru-RU")
+	include ./../partials/head
+	body
+		include ./../partials/header
+
+		//- ===== Content =====
+		block content
+		//- ===== Content End =====
+
+		include ./../partials/footer
+		include ./../partials/scripts

@@ -1,0 +1,70 @@
+@import "utils/*.scss";
+@import "vendors/vendors.scss";
+@import "components/*.scss";
+//TODO: Optimize images
+//TODO: add folders "upload" and "icons" for images
+//TODO: add smart-grid
+//TODO: add fancybox
+//TODO: add slick slider
+//TODO: add flatpickr
+//TODO: add perfect-scrollbar
+//TODO: add selectric
+
+body {
+    font-family: $Roboto;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol {
+    counter-reset: item;
+    padding: 0;
+    li {
+        counter-reset: subsection;
+        display: block;
+        line-height: normal;
+        font-size: 16px;
+        margin-bottom: 30px;
+        ol {
+            margin-top: 30px;
+        }
+        &::before {
+            content: counters(item, ".") ". ";
+            counter-increment: item;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+    }
+}
+
+p {
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,53 @@
+{
+    "name": "gulp-starting-template",
+    "version": "0.6.5",
+    "description": "Gulp starting template",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Johnny-24/Starting-template-gulp"
+    },
+    "author": "Johnny",
+    "homepage": "https://github.com/Johnny-24/Starting-template-gulp",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "babel-loader": "^8.0.6",
+        "browser-sync": "^2.18.12",
+        "del": "^3.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-cheerio": "^0.6.2",
+        "gulp-cli": "^2.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csscomb": "^3.0.8",
+        "gulp-csso": "^3.0.0",
+        "gulp-favicons": "^2.4.0",
+        "gulp-group-css-media-queries": "^1.2.2",
+        "gulp-if": "^2.0.2",
+        "gulp-insert": "^0.5.0",
+        "gulp-load-plugins": "^1.5.0",
+        "gulp-notify": "^3.0.0",
+        "gulp-pug": "^3.3.0",
+        "gulp-replace": "^0.6.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-sass-glob": "^1.1.0",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-svg-sprite": "^1.3.7",
+        "gulp-svgmin": "^1.2.4",
+        "gulp-ttf2woff2": "^3.0.0",
+        "gulp-uglifyjs": "^0.6.2",
+        "gulp-wait": "^0.0.2"
+    },
+    "dependencies": {
+        "inputmask": "^5.0.3",
+        "object-fit-images": "^3.2.4",
+        "reset-css": "^5.0.1",
+        "svg4everybody": "^2.1.8"
+    }
+}

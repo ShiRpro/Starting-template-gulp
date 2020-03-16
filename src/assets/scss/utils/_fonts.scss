@@ -1,0 +1,19 @@
+/*
+font-weight helper
+100 - Extra Light or Ultra Light
+200 - Light or Thin
+300 - Book or Demi
+400 - Regular or Normal
+500 - Medium
+600 - Semibold or Demibold
+700 - Bold
+800 - Black or Extra Bold or Heavy
+900 - Extra Black or Fat or Ultra Blac
+*/
+
+@import "utils/mixins.scss";
+
+// Roboto
+@include font("Roboto", normal, 700, "../fonts/Roboto/Roboto-Bold.woff2");
+@include font("Roboto", normal, 400, "../fonts/Roboto/Roboto-Regular.woff2");
+@include font("Roboto", normal, 200, "../fonts/Roboto/Roboto-Light.woff2");
